@@ -1,0 +1,12 @@
+# Github has currently detected the language as Java. Trying to change it to Scala with the setting below
+
+# https://stackoverflow.com/questions/3305147/github-language-tag/45658196#45658196
+*.java linguist-language=Scala
+
+# If the above will not work then try with the settings below
+# https://stackoverflow.com/questions/13597892/how-to-change-the-language-of-a-repository-on-github/43520759#43520759
+# * linguist-vendored
+# *.scala linguist-vendored=false
+
+# https://git-scm.com/docs/gitattributes
+# https://github.com/github/linguist#overrides
